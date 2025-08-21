@@ -2194,7 +2194,7 @@ session_start();
                         </div>
 
 
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-duration="1500ms"
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp col-6" data-wow-duration="1500ms"
                             data-wow-delay="400ms">
                             <div class="footer-widget footer-widget--post">
                                 <h2 class="footer-widget__title">useful links</h2>
@@ -2211,7 +2211,7 @@ session_start();
                             <!-- /.footer-widget -->
                         </div>
                         <!-- /.col-lg-6 -->
-                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-duration="1500ms"
+                        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp col-6" data-wow-duration="1500ms"
                             data-wow-delay="400ms">
                             <div class="footer-widget footer-widget--post">
                                 <h2 class="footer-widget__title">other links</h2>
@@ -2246,7 +2246,7 @@ session_start();
                 <div class="container">
                     <div class="main-footer__bottom__inner d-flex justify-content-between align-items-center">
                         <p class="main-footer__copyright mb-0">
-                            Copyright &copy; <span class="dynamic-year"></span> | Ram Ayan Club | All Rights Reserved
+                            Copyright &copy; <span class="dynamic-year"></span> | Ram Ayan Club
                         </p>
 
                         <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
@@ -2276,7 +2276,8 @@ session_start();
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
             <div class="logo-box logo-retina">
-                <a href="#" aria-label="logo image"><img src="assets/images/logo-light.png" width="158" alt="logo"></a>
+                <a href="#" aria-label="logo image"><img src="assets/images/logo/ramayan_logo.png" width="158"
+                        alt="logo"></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -2286,25 +2287,33 @@ session_start();
                     <span class="mobile-nav__contact__icon">
                         <i class="fa fa-envelope"></i>
                     </span>
-                    <a href="mailto:needhelp@gotur.com">needhelp@gotur.com</a>
+                    <a href="mailto:ramayanclub@gmail.com">ramayanclub@gmail.com</a>
                 </li>
                 <li>
                     <span class="mobile-nav__contact__icon">
                         <i class="fa fa-phone-alt"></i>
                     </span>
-                    <a href="tel:+9156980036420">+91 5698 0036 420</a>
+                    <a href="tel:+919999999999">+91 9999999999</a>
                 </li>
             </ul>
             <!-- /.mobile-nav__contact -->
             <div class="mobile-nav__social">
-                <a href="https://facebook.com"> <i class="icon-facebook" aria-hidden="true"></i> <span
-                        class="sr-only">Facebook</span></a>
-                <a href="https://twitter.com"> <i class="icon-twitter" aria-hidden="true"></i> <span
-                        class="sr-only">Twitter</span></a>
-                <a href="https://instagram.com"> <i class="icon-linkedin" aria-hidden="true"></i> <span
-                        class="sr-only">Linked In</span></a>
-                <a href="https://youtube.com"> <i class="icon-youtube" aria-hidden="true"></i> <span
-                        class="sr-only">Youtube</span></a>
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                    <span class="sr-only">Linked In</span>
+                </a>
+                <a href="https://youtube.com" target="_blank">
+                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                    <span class="sr-only">Youtube</span>
+                </a>
             </div>
             <!-- /.mobile-nav__social -->
         </div>

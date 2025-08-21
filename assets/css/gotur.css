@@ -3537,11 +3537,11 @@ h6 {
     position: relative;
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
     .main-header__inner {
         padding: 15px 30px;
     }
-}
+} */
 
 @media (max-width: 575px) {
     .main-header__inner {
@@ -21234,8 +21234,8 @@ body.boxed-wrapper .testimonials-three__inner {
     align-items: center;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .taxi-image {
         height: 300px;
     }
-}
+} */
