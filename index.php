@@ -476,8 +476,7 @@ session_start();
                     </div>
                     <!-- /.sec-title -->
                     <p class="destination-filter__top__text">
-                        Experience the divine aura of sacred temples, historic shrines, and spiritual landmarks that
-                        have inspired faith and devotion for centuries.
+                        Experience the divine aura of sacred temples, historic shrines, and spiritual landmarks.
                     </p>
                     <!-- /.destination-filter__top__text -->
                 </div>
@@ -498,12 +497,12 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='100ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/places/ayodhya.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <img src="assets/images/maharashtra/gateway.jpg" alt="destination">
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
-                                            <h3 class="destination-card-one__title"><a href="#">Ayodhya</a></h3>
+                                            <h3 class="destination-card-one__title"><a href="#">Gateway</a></h3>
                                             <!-- /.destination-card-one__title -->
                                         </div>
                                         <!-- /.destination-one__content -->
@@ -515,12 +514,12 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='300ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/places/mathura.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <img src="assets/images/maharashtra/siddhivinayak.jpg" alt="destination">
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
-                                            <h3 class="destination-card-one__title"><a href="#">Mathura</a></h3>
+                                            <h3 class="destination-card-one__title"><a href="#">Siddhivinayak</a></h3>
                                             <!-- /.destination-card-one__title -->
                                         </div>
                                         <!-- /.destination-one__content -->
@@ -532,12 +531,12 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='500ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/places/chitrakoot.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <img src="assets/images/maharashtra/mahabaleshwar.jpg" alt="destination">
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
-                                            <h3 class="destination-card-one__title"><a href="#">Chitrakoot</a></h3>
+                                            <h3 class="destination-card-one__title"><a href="#">Mahabaleshwar</a></h3>
                                             <!-- /.destination-card-one__title -->
                                         </div>
                                         <!-- /.destination-one__content -->
@@ -549,12 +548,12 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='600ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/places/prayag.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <img src="assets/images/maharashtra/taj.jpg" alt="destination">
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
-                                            <h3 class="destination-card-one__title"><a href="#">Pryagraj</a></h3>
+                                            <h3 class="destination-card-one__title"><a href="#">Taj Hotel</a></h3>
                                             <!-- /.destination-card-one__title -->
                                         </div>
                                         <!-- /.destination-one__content -->
@@ -573,7 +572,7 @@ session_start();
                                         data-wow-delay='100ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/places/ayodhya.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -590,7 +589,7 @@ session_start();
                                         data-wow-delay='300ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/places/mathura.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -607,7 +606,7 @@ session_start();
                                         data-wow-delay='500ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/places/chitrakoot.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -624,7 +623,7 @@ session_start();
                                         data-wow-delay='600ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/places/prayag.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -647,7 +646,7 @@ session_start();
                                         data-wow-delay='100ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/places/ayodhya.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -664,7 +663,7 @@ session_start();
                                         data-wow-delay='300ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/places/mathura.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -681,7 +680,7 @@ session_start();
                                         data-wow-delay='500ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/places/chitrakoot.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -698,7 +697,7 @@ session_start();
                                         data-wow-delay='600ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/places/prayag.png" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -721,7 +720,7 @@ session_start();
                                         data-wow-delay='100ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/destination/destination-1-1.jpg" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -738,7 +737,7 @@ session_start();
                                         data-wow-delay='300ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/destination/destination-1-2.jpg" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -755,7 +754,7 @@ session_start();
                                         data-wow-delay='500ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/destination/destination-1-3.jpg" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -772,7 +771,7 @@ session_start();
                                         data-wow-delay='600ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/destination/destination-1-4.jpg" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -795,7 +794,7 @@ session_start();
                                         data-wow-delay='100ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/destination/destination-1-1.jpg" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -812,7 +811,7 @@ session_start();
                                         data-wow-delay='300ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/destination/destination-1-2.jpg" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -829,7 +828,7 @@ session_start();
                                         data-wow-delay='500ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/destination/destination-1-3.jpg" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
@@ -846,7 +845,7 @@ session_start();
                                         data-wow-delay='600ms'>
                                         <div class="destination-card-one__thumb">
                                             <img src="assets/images/destination/destination-1-4.jpg" alt="destination">
-                                            <a href="" class="destination-card-one__overly"></a>
+                                            <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
