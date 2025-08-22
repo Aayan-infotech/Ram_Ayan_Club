@@ -10531,12 +10531,12 @@ body.megamenu-popup-active .mobile-nav__content {
     display: block;
 }
 
-.listing-card-four__image img {
+/* .listing-card-four__image img {
     object-fit: contain;
     aspect-ratio: 4/3;
     width: 100%;
     transform: scale(1);
-    transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in;
 }
 
 .listing-card-four__image__overly {
@@ -10544,11 +10544,49 @@ body.megamenu-popup-active .mobile-nav__content {
     left: 0;
     top: 0;
     height: 100%;
-    background-color: rgba(var(--gotur-black-rgb, 29, 35, 31), 0.7);
+    background-color: rgba(var(--gotur-black-rgb, 29, 35, 20), 0.5);
     position: absolute;
     opacity: 0;
     visibility: hidden;
     transition: all 0.4s ease-in-out;
+} */
+.listing-card-four__image {
+    position: relative;
+    overflow: hidden; /* image zoom cut na ho */
+}
+
+.listing-card-four__image img {
+    object-fit: contain;
+    aspect-ratio: 4/3;
+    width: 100%;
+    transform: scale(1);
+    transition: transform 0.4s ease-in-out;
+    z-index: 2; /* image upar rahe */
+    position: relative;
+}
+
+/* Overlay */
+.listing-card-four__image__overly {
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgba(var(--gotur-black-rgb, 29, 35, 20), 0.5);
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    z-index: 1; /* overlay neeche rahe */
+}
+
+/* Hover Effect */
+.listing-card-four__image:hover img {
+    transform: scale(1.1); /* zoom in */
+}
+
+.listing-card-four__image:hover .listing-card-four__image__overly {
+    opacity: 1;
+    visibility: visible;
 }
 
 .listing-card-four__btn-group {

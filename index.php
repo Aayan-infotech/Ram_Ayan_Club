@@ -645,12 +645,12 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='100ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/places/ayodhya.png" alt="destination">
+                                            <img src="assets/images//madhya-pradesh/mahakal.jpg" alt="destination">
                                             <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
-                                            <h3 class="destination-card-one__title"><a href="#">Ayodhya</a></h3>
+                                            <h3 class="destination-card-one__title"><a href="#">Mahakaal</a></h3>
                                             <!-- /.destination-card-one__title -->
                                         </div>
                                         <!-- /.destination-one__content -->
@@ -662,12 +662,12 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='300ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/places/mathura.png" alt="destination">
+                                            <img src="assets/images//madhya-pradesh/omkareshwar.jpg" alt="destination">
                                             <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
-                                            <h3 class="destination-card-one__title"><a href="#">Mathura</a></h3>
+                                            <h3 class="destination-card-one__title"><a href="#">Omkareshwar</a></h3>
                                             <!-- /.destination-card-one__title -->
                                         </div>
                                         <!-- /.destination-one__content -->
@@ -679,12 +679,12 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='500ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/places/chitrakoot.png" alt="destination">
+                                            <img src="assets/images//madhya-pradesh/orchha.jpg" alt="destination">
                                             <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
-                                            <h3 class="destination-card-one__title"><a href="#">Chitrakoot</a></h3>
+                                            <h3 class="destination-card-one__title"><a href="#">Orchha Fort</a></h3>
                                             <!-- /.destination-card-one__title -->
                                         </div>
                                         <!-- /.destination-one__content -->
@@ -696,12 +696,12 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='600ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/places/prayag.png" alt="destination">
+                                            <img src="assets/images/madhya-pradesh/kal-bhairav.jpg" alt="destination">
                                             <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
                                         <div class="destination-card-one__content">
-                                            <h3 class="destination-card-one__title"><a href="#">Pryagraj</a></h3>
+                                            <h3 class="destination-card-one__title"><a href="#">Kal Bhairav</a></h3>
                                             <!-- /.destination-card-one__title -->
                                         </div>
                                         <!-- /.destination-one__content -->
@@ -868,7 +868,7 @@ session_start();
             </div>
             <!-- /.container -->
             <div class="destination-filter__element">
-                <img src="assets/images/shapes/plan.png" alt>
+                <img src="assets/images/shapes/hero-shapr-1-3.png" alt>
             </div>
             <!-- /.destination-filter__element -->
             <div class="destination-filter__element-two">
@@ -977,6 +977,9 @@ session_start();
                                 <h6 class="sec-title__tagline bw-split-in-right">popular fleets</h6>
                                 <!-- /.sec-title__tagline -->
                                 <h3 class="sec-title__title bw-split-in-left">Most Popular <span>Fleets</span></h3>
+                                <p class="destination-filter__top__text text-start mt-2">
+                                    Please Contact to Get custom quotes
+                                </p>
                                 <!-- /.sec-title__title -->
                             </div>
                             <!-- /.sec-title -->
@@ -1325,14 +1328,15 @@ session_start();
                                 <div class="listing-card-four__content">
 
                                     <!-- /.listing-card-four__rating -->
-                                    <h3 class="listing-card-four__title mt-2"><a href="#">Traveller</a></h3>
+                                    <h3 class="listing-card-four__title mt-2"><a href="#">Traveller </a> </h3>
+
                                     <!-- /.listing-card-four__title -->
 
                                     <div class="listing-card-four__content__btn">
                                         <div class="listing-card-four__price">
                                             <span class="listing-card-four__price__sub">Rate</span>
                                             <span class="listing-card-four__price__number">Driver Night
-                                                Rs.500/Nigh</span>
+                                                Rs.500/Night</span>
                                         </div>
                                         <!-- /.listing-card-four__price -->
                                         <a href="#booking" class="listing-card-four__btn gotur-btn">
@@ -1366,6 +1370,7 @@ session_start();
             <div class="testimonials-three__bg" style="background-image: url(assets/images/backgrounds/testi-3-1.png);">
             </div>
             <div class="container-fluid">
+
                 <div class="row align-items-center gutter-y-40">
                     <div class="col-xl-6">
                         <div class="testimonials-three__top">
@@ -1917,189 +1922,6 @@ session_start();
             </div>
         </section>
 
-
-
-        <div class="instagram-one section-space instagram-one--two wow fadeInUp" data-wow-duration="1500ms"
-            data-wow-delay="300ms">
-            <div class="instagram-one__top">
-                <div class="container">
-                    <h5 class="instagram-one__title">Follow us on Instagram</h5>
-                    <!-- /.instagram-one__title -->
-                </div>
-                <!-- /.container -->
-            </div>
-            <!-- /.instagram-one__top -->
-            <div class="container-fluid">
-                <div class="instagram-one__carousel gotur-owl__carousel owl-carousel owl-theme" data-owl-options='{
-                "items": 6,
-                "margin": 30,
-                "loop": false,
-                "smartSpeed": 700,
-                "nav": false,
-                "dots": false,
-                "autoplay": true,
-                "responsive": {
-                    "0": {
-                        "items": 1
-                    },
-                    "500": {
-                        "items": 2
-                    },
-                    "768": {
-                        "items": 3
-                    },
-                    "992": {
-                        "items": 3
-                    },
-                    "1080": {
-                        "items": 4
-                    },
-                    "1200": {
-                        "items": 5
-                    },
-                    "1400": {
-                        "items": 6
-                    }
-                }
-            }'>
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-1.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-2.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-3.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-4.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-5.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-6.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-1.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-2.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-3.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-4.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-5.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                    <div class="item">
-                        <div class="instagram-one__item">
-                            <img src="assets/images/instragarm/insta-1-6.jpg" alt="instagram">
-                            <a href="https://www.instagram.com/" class="instagram-one__item__overly" target="_blank">
-                                <div class="instagram-one__item__overly__icon"><i class="fab fa-instagram"></i></div>
-                                <!-- /.instagram-one__item__overly__icon -->
-                            </a>
-                        </div>
-                        <!-- /.instagram-one__item -->
-                    </div>
-                    <!-- /.item -->
-                </div>
-                <!-- /.instagram-one__carousel -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /.instagram-one -->
 
         <footer class="main-footer">
             <div class="main-footer__top">
