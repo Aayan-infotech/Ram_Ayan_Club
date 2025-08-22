@@ -70,7 +70,7 @@ session_start();
                     <ul class="list-unstyled top-one__info">
                         <li class="top-one__info__item">
                             <i class="fas fa-phone"></i>
-                            <a href="tel:+919999999999">+91 9999999999</a>
+                            <a href="tel:+917991850989">+91 7991850989</a>
                         </li>
                         <!-- /.top-one__info__item -->
                         <li class="top-one__info__item">
@@ -83,7 +83,7 @@ session_start();
                     <div class="top-one__right">
                         <div class="top-one__info__item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <a href="https://www.google.com/maps">Incugus Tower, C-84, Vibhuti Khand</a>
+                            <a href="https://www.google.com/maps/dir//QXGC%2BXJG,+Patel+Nagar,+Nilmatha,+Lucknow,+Uttar+Pradesh+226002/@26.7774087,80.8891636,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x399bfb5b4b000001:0xb47f8a394321a354!2m2!1d80.97157!2d26.7774386?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D">Eagle House, Devlok Colony Patel Nagar, Neel Matha Lucknow</a>
                         </div>
                         <!-- /.top-one__info__item -->
                         <div class="top-one__social">
@@ -1951,7 +1951,7 @@ session_start();
                                 <!-- /.footer-widget__list__icon -->
                                 <div class="footer-widget__list__content">
                                     <span class="footer-widget__list__subtitle">Call Agent</span>
-                                    <a href="tel:+919999999999">+91 9999999999</a>
+                                    <a href="tel:+917991850989">+91 7991850989</a>
                                 </div>
                                 <!-- /.footer-widget__list__content -->
                             </li>
@@ -2114,7 +2114,7 @@ session_start();
                     <span class="mobile-nav__contact__icon">
                         <i class="fa fa-phone-alt"></i>
                     </span>
-                    <a href="tel:+919999999999">+91 9999999999</a>
+                    <a href="tel:+917991850989">+91 7991850989</a>
                 </li>
             </ul>
             <!-- /.mobile-nav__contact -->
