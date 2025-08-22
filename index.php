@@ -1061,7 +1061,7 @@ session_start();
                                     <div class="listing-card-four__content__btn">
                                         <div class="listing-card-four__price">
                                             <span class="listing-card-four__price__sub">Rate</span>
-                                            <span class="listing-card-four__price__number">Rs.18/KM</span>
+                                            <span class="listing-card-four__price__number">Rs.18/KM <br>(Toll tax extra applicable)</span>
                                         </div>
                                         <!-- /.listing-card-four__price -->
                                         <a href="#booking" class="listing-card-four__btn gotur-btn">
@@ -1100,7 +1100,7 @@ session_start();
                                     <div class="listing-card-four__content__btn">
                                         <div class="listing-card-four__price">
                                             <span class="listing-card-four__price__sub">Rate</span>
-                                            <span class="listing-card-four__price__number">Rs.16/KM</span>
+                                            <span class="listing-card-four__price__number">Rs.16/KM <br>(Toll tax extra applicable)</span>
                                         </div>
                                         <!-- /.listing-card-four__price -->
                                         <a href="#booking" class="listing-card-four__btn gotur-btn">
@@ -1139,7 +1139,7 @@ session_start();
                                     <div class="listing-card-four__content__btn">
                                         <div class="listing-card-four__price">
                                             <span class="listing-card-four__price__sub">Rate</span>
-                                            <span class="listing-card-four__price__number">Rs.12/KM</span>
+                                            <span class="listing-card-four__price__number">Rs.12/KM <br>(Toll tax extra applicable)</span>
                                         </div>
                                         <!-- /.listing-card-four__price -->
                                         <a href="#booking" class="listing-card-four__btn gotur-btn">
@@ -1178,7 +1178,7 @@ session_start();
                                     <div class="listing-card-four__content__btn">
                                         <div class="listing-card-four__price">
                                             <span class="listing-card-four__price__sub">Rate</span>
-                                            <span class="listing-card-four__price__number">Rs.11/KM</span>
+                                            <span class="listing-card-four__price__number">Rs.11/KM <br>(Toll tax extra applicable)</span>
                                         </div>
                                         <!-- /.listing-card-four__price -->
                                         <a href="#booking" class="listing-card-four__btn gotur-btn">
@@ -1217,7 +1217,7 @@ session_start();
                                     <div class="listing-card-four__content__btn">
                                         <div class="listing-card-four__price">
                                             <span class="listing-card-four__price__sub">Rate</span>
-                                            <span class="listing-card-four__price__number">Rs.16/KM</span>
+                                            <span class="listing-card-four__price__number">Rs.16/KM <br>(Toll tax extra applicable)</span>
                                         </div>
                                         <!-- /.listing-card-four__price -->
                                         <a href="#booking" class="listing-card-four__btn gotur-btn">
@@ -1256,7 +1256,7 @@ session_start();
                                     <div class="listing-card-four__content__btn">
                                         <div class="listing-card-four__price">
                                             <span class="listing-card-four__price__sub">Rate</span>
-                                            <span class="listing-card-four__price__number">Rs.16/KM</span>
+                                            <span class="listing-card-four__price__number">Rs.16/KM <br>(Toll tax extra applicable)</span>
                                         </div>
                                         <!-- /.listing-card-four__price -->
                                         <a href="#booking" class="listing-card-four__btn gotur-btn">
@@ -1295,7 +1295,7 @@ session_start();
                                     <div class="listing-card-four__content__btn">
                                         <div class="listing-card-four__price">
                                             <span class="listing-card-four__price__sub">Rate</span>
-                                            <span class="listing-card-four__price__number">Rs.17/KM</span>
+                                            <span class="listing-card-four__price__number">Rs.17/KM <br>(Toll tax extra applicable)</span>
                                         </div>
                                         <!-- /.listing-card-four__price -->
                                         <a href="#booking" class="listing-card-four__btn gotur-btn">
@@ -1335,8 +1335,7 @@ session_start();
                                     <div class="listing-card-four__content__btn">
                                         <div class="listing-card-four__price">
                                             <span class="listing-card-four__price__sub">Rate</span>
-                                            <span class="listing-card-four__price__number">Driver Night
-                                                Rs.500/Night</span>
+                                            <span class="listing-card-four__price__number">Driver Rs.500/Night <br>(Toll tax extra applicable)</span>
                                         </div>
                                         <!-- /.listing-card-four__price -->
                                         <a href="#booking" class="listing-card-four__btn gotur-btn">
