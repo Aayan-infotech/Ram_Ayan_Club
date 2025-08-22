@@ -118,7 +118,7 @@ session_start();
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo logo-retina">
-                        <a href="index.php"><img src="assets/images/logo/ramayan_logo.png" alt="logo" width="130"
+                        <a href="index.php"><img src="assets/images/logo/ramayan_logo.png" alt="logo" width="140"
                                 height="100"></a>
                     </div>
                     <!-- /.main-header__logo -->
@@ -1536,7 +1536,7 @@ session_start();
 
                                     <div class="taxi-image">
 
-                                        <h2><i class="fas fa-taxi taxi-icon"></i>City Taxi Service</h2>
+                                        <h2><i class="fas fa-taxi taxi-icon"></i>Ram Ayan Club Services</h2>
                                         <p class="lead">Fast, reliable, and affordable rides at your fingertips</p>
 
                                         <div class="benefits mt-5">
@@ -1579,7 +1579,7 @@ session_start();
                                 <!-- Right side with form -->
                                 <div class="col-md-6">
                                     <div class="form-section">
-                                        <h3 class="header-title">Book Your Taxi Online</h3>
+                                        <h3 class="header-title">Book Your Fleet Online</h3>
 
                                         <form action="submit.php" method="POST" id="bookingForm" novalidate>
                                             <div class="row">
