@@ -75,7 +75,7 @@ session_start();
                         <!-- /.top-one__info__item -->
                         <li class="top-one__info__item">
                             <i class="fas fa-envelope"></i>
-                            <a href="mailto:ramayanclub@gmail.com">ramayanclub@gmail.com</a>
+                            <a href="mailto:ramayanclublko@gmail.com">ramayanclublko@gmail.com</a>
                         </li>
                         <!-- /.top-one__info__item -->
                     </ul>
@@ -1940,7 +1940,7 @@ session_start();
                                 <!-- /.footer-widget__list__icon -->
                                 <div class="footer-widget__list__content">
                                     <span class="footer-widget__list__subtitle">Send Email</span>
-                                    <a href="mailto:ramayanclub@gmail.com">ramayanclub@gmail.com</a>
+                                    <a href="mailto:ramayanclublko@gmail.com">ramayanclublko@gmail.com</a>
                                 </div>
                                 <!-- /.footer-widget__list__content -->
                             </li>
@@ -2108,7 +2108,7 @@ session_start();
                     <span class="mobile-nav__contact__icon">
                         <i class="fa fa-envelope"></i>
                     </span>
-                    <a href="mailto:ramayanclub@gmail.com">ramayanclub@gmail.com</a>
+                    <a href="mailto:ramayanclublko@gmail.com">ramayanclublko@gmail.com</a>
                 </li>
                 <li>
                     <span class="mobile-nav__contact__icon">
