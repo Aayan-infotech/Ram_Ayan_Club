@@ -128,7 +128,7 @@ session_start();
                                 <li class="scrollToLink"><a href="#home">Home</a></li>
                                 <li class="scrollToLink"><a href="#about">About</a></li>
                                 <li class="scrollToLink"><a href="#destination">Travel Spots</a></li>
-                                <li class="scrollToLink"><a href="#guide">Our Taxis</a></li>
+                                <li class="scrollToLink"><a href="#guide">Our Fleets</a></li>
                                 <li class="scrollToLink"><a href="#testimonials">Testimonials</a></li>
                                 <li class="scrollToLink"><a href="#blog">Our Stories</a></li>
 
