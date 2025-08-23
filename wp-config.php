@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'ram_cyan_club' );
+define( 'DB_NAME', 'ram_ayan_club' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
