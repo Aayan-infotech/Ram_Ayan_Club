@@ -58,7 +58,7 @@
                     <div class="top-one__right">
                         <div class="top-one__info__item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <a href="https://www.google.com/maps">Incugus Tower, C-84, Vibhuti Khand</a>
+                            <a href="https://www.google.com/maps">Eagle House, Devlok Colony Patel Nagar, Neel Matha Lucknow</a>
                         </div>
                         <!-- /.top-one__info__item -->
                         <div class="top-one__social">
@@ -104,7 +104,7 @@
                                 <li class="scrollToLink"><a href="#home">Home</a></li>
                                 <li class="scrollToLink"><a href="#about">About</a></li>
                                 <li class="scrollToLink"><a href="#destination">Travel Spots</a></li>
-                                <li class="scrollToLink"><a href="#guide">Our Taxis</a></li>
+                                <li class="scrollToLink"><a href="#guide">Our Fleet</a></li>
                                 <li class="scrollToLink"><a href="#testimonials">Testimonials</a></li>
                                 <li class="scrollToLink"><a href="#blog">Our Stories</a></li>
 

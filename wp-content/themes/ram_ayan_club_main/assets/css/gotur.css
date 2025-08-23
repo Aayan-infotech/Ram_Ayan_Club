@@ -2808,6 +2808,7 @@ h6 {
     color: inherit;
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
     transition: all 500ms ease;
+    text-decoration: none;
 }
 
 .blog-card-two--two .blog-card-two__title a:hover {
@@ -21059,6 +21060,7 @@ a+.listing-card-four__btns__hover {
 .footer-widget__list a {
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
     transition: all 500ms ease;
+    text-decoration: none;
 }
 
 .footer-widget__list a:hover {
