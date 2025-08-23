@@ -16,7 +16,7 @@
                                 <!-- /.footer-widget__list__icon -->
                                 <div class="footer-widget__list__content">
                                     <span class="footer-widget__list__subtitle">Send Email</span>
-                                    <a href="mailto:ramayanclub@gmail.com">ramayanclub@gmail.com</a>
+                                    <a href="mailto:ramayanclublko@gmail.com">ramayanclublko@gmail.com</a>
                                 </div>
                                 <!-- /.footer-widget__list__content -->
                             </li>
@@ -27,7 +27,7 @@
                                 <!-- /.footer-widget__list__icon -->
                                 <div class="footer-widget__list__content">
                                     <span class="footer-widget__list__subtitle">Call Agent</span>
-                                    <a href="tel:+919999999999">+91 9999999999</a>
+                                    <a href="tel:+917991850989">+91 7991850989</a>
                                 </div>
                                 <!-- /.footer-widget__list__content -->
                             </li>
@@ -130,11 +130,11 @@
                 </div>
                 <!-- /.container -->
                 <div class="main-footer__element-one">
-                    <img src="assets/images/shapes/footer-shape-1-1.png" alt>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shapes/footer-shape-1-1.png" alt>
                 </div>
                 <!-- /.main-footer__element-one -->
                 <div class="main-footer__element-two">
-                    <img src="assets/images/shapes/footer-shape-1-2.png" alt>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shapes/footer-shape-1-2.png" alt>
                 </div>
                 <!-- /.main-footer__element-one -->
             </div>
@@ -184,13 +184,13 @@
                     <span class="mobile-nav__contact__icon">
                         <i class="fa fa-envelope"></i>
                     </span>
-                    <a href="mailto:ramayanclub@gmail.com">ramayanclub@gmail.com</a>
+                    <a href="mailto:ramayanclublko@gmail.com">ramayanclublko@gmail.com</a>
                 </li>
                 <li>
                     <span class="mobile-nav__contact__icon">
                         <i class="fa fa-phone-alt"></i>
                     </span>
-                    <a href="tel:+919999999999">+91 9999999999</a>
+                    <a href="tel:+917991850989">+91 7991850989</a>
                 </li>
             </ul>
             <!-- /.mobile-nav__contact -->

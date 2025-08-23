@@ -304,6 +304,7 @@
     transition: 500ms;
     text-transform: capitalize;
     z-index: 1;
+    text-decoration: none;
 }
 
 .gotur-btn svg {
@@ -3391,6 +3392,7 @@ h6 {
 }
 
 .top-one__info__item a {
+    text-decoration: none;
     color: inherit;
 }
 
@@ -3411,6 +3413,7 @@ h6 {
     font-size: 16px;
     color: var(--gotur-white, #fff);
     line-height: 1;
+    text-decoration: none;
 }
 
 .top-one__social a:hover {
@@ -3753,15 +3756,12 @@ h6 {
 .main-header--one .main-header__info a,
 .main-header--one .main-menu .main-menu__list>li>a {
     color: var(--gotur-black, #1D231F);
-    text-decoration: none;
 }
 
 .main-header--one .main-header__right {
     gap: 60px;
 }
-a{
-    text-decoration: none;
-}
+
 @media (max-width: 1470px) {
     .main-header--one .main-header__right {
         gap: 40px;
@@ -4145,6 +4145,7 @@ a{
     text-transform: capitalize;
     line-height: normal;
     transition: all 500ms ease;
+    text-decoration: none;
 }
 
 .main-menu .main-menu__list>li.current>a,
@@ -5746,7 +5747,7 @@ body.megamenu-popup-active .mobile-nav__content {
     background-color: var(--gotur-gray, #F3F8F6);
     position: relative;
     width: 100%;
-    height: 650px;
+    height: 720px;
     z-index: 1;
 }
 
@@ -10781,7 +10782,6 @@ a+.listing-card-four__btns__hover {
     color: inherit;
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
     transition: all 500ms ease;
-    text-decoration: none;
 }
 
 .listing-card-four__title a:hover {
@@ -12568,7 +12568,8 @@ a+.listing-card-four__btns__hover {
     width: 100%;
     transform: scale(1);
     transition: all 0.4s ease-in-out;
-    height: 350px;
+    /* height: 350px; */
+    aspect-ratio: 4/5.5;
 }
 
 .destinations-card-two__hover {
@@ -20617,7 +20618,7 @@ a+.listing-card-four__btns__hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 5px;
     border-bottom: 1px solid rgba(var(--gotur-border-color-rgb, 229, 229, 229), 0.2);
 }
@@ -20793,6 +20794,7 @@ a+.listing-card-four__btns__hover {
 .footer-widget__links li a {
     color: inherit;
     position: relative;
+    text-decoration: none;
 }
 
 .footer-widget__links li a::after {

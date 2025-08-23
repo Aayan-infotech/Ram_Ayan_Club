@@ -1,20 +1,25 @@
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="bracket-web">
-    <meta name="description" content="Gotur is a modern travel & tour booking HTML Template. It is perfect for travel agencies, tour operators, trip holiday booking websites, adventure and booking companies looking for a unique and intuitive search function and all other travel & tourism websites and businesses.">
-    <title>Home One || Gotur || Travel & Tour HTML Template</title>
+    <meta name="description"
+        content="Ram Ayan Club offers religious tour and travel packages across Ayodhya, Kashi, Mathura, Chitrakoot, Prayagraj and other spiritual destinations in India. Explore Ram Mandir, Ramayana circuit tours, and sacred pilgrimages with us.">
+    <meta name="keywords"
+        content="Ram Ayan Club, Ayodhya tour, Ram Mandir tour, Ramayana circuit, religious tours India, spiritual travel, pilgrimage tours, Kashi Vishwanath, Mathura Vrindavan, Chitrakoot, Prayagraj, holy places India">
+    <meta name="robots" content="index, follow">
+    <title>Home | Ram Ayan Club</title>
 
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ramayan_logo.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ramayan_logo.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ramayan_logo.png">
     <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicons/site.webmanifest">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <?php wp_head(); ?>
@@ -26,7 +31,9 @@
     <div class="custom-cursor__cursor-two"></div>
 
     <div class="preloader">
-        <div class="preloader__image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/logo/ramayan_logo.png);"></div>
+        <div class="preloader__image"
+            style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/logo/ramayan_logo.png);">
+        </div>
     </div>
     <!-- /.preloader -->
     <div class="page-wrapper">
@@ -38,12 +45,12 @@
                     <ul class="list-unstyled top-one__info">
                         <li class="top-one__info__item">
                             <i class="fas fa-phone"></i>
-                            <a href="tel:+919999999999">+91 9999999999</a>
+                            <a href="tel:+917991850989">+91 7991850989</a>
                         </li>
                         <!-- /.top-one__info__item -->
                         <li class="top-one__info__item">
                             <i class="fas fa-envelope"></i>
-                            <a href="mailto:ramayanclub@gmail.com">ramayanclub@gmail.com</a>
+                            <a href="mailto:ramayanclublko@gmail.com">ramayanclublko@gmail.com</a>
                         </li>
                         <!-- /.top-one__info__item -->
                     </ul>
@@ -86,8 +93,9 @@
             <div class="container-fluid">
                 <div class="main-header__inner">
                     <div class="main-header__logo logo-retina">
-                        <a href="index.php"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ramayan_logo.png" alt="logo" width="130"
-                                height="100"></a>
+                        <a href="index.php"><img
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ramayan_logo.png"
+                                alt="logo" width="130" height="100"></a>
                     </div>
                     <!-- /.main-header__logo -->
                     <div class="main-header__right">

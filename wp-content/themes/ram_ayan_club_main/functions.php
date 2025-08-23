@@ -133,7 +133,7 @@ add_action('wp_footer', function () {
         <script>
         document.addEventListener("DOMContentLoaded", function () {
             Swal.fire({
-                icon: '<?php echo esc_js($message['type']); ?>', // success or error
+                icon: '<?php echo esc_js($message['type']); ?>', 
                 title: '<?php echo esc_js($message['title']); ?>',
                 text: '<?php echo esc_js($message['text']); ?>'
             });

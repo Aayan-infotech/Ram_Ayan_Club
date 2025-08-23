@@ -347,7 +347,7 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='100ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/maharashtra/gateway.jpg" alt="destination">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/gateway.jpg" alt="destination">
                                             <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
@@ -364,7 +364,7 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='300ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/maharashtra/siddhivinayak.jpg" alt="destination">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/siddhivinayak.jpg" alt="destination">
                                             <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
@@ -381,7 +381,7 @@ session_start();
                                     <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                         data-wow-delay='500ms'>
                                         <div class="destination-card-one__thumb">
-                                            <img src="assets/images/maharashtra/mahabaleshwar.jpg" alt="destination">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/mahabaleshwar.jpg" alt="destination">
                                             <a href="#" class="destination-card-one__overly"></a>
                                         </div>
                                         <!-- /.destination-card-one__thumb -->
@@ -1420,7 +1420,7 @@ session_start();
                                                 </div>
                                                 <div>
                                                     <h4>Need immediate assistance?</h4>
-                                                    <h5 class="text-warning">+91 999999999</h5>
+                                                    <h5 class="text-warning">+91 7991850989</h5>
                                                 </div>
                                             </div>
                                         </div>
