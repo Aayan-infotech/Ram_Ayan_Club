@@ -146,12 +146,6 @@
                             Copyright &copy; <span class="dynamic-year"></span> | Ram Ayan Club
                         </p>
 
-                        <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
-                            <span class="scroll-to-top__wrapper">
-                                <i class="fas fa-arrow-up"></i>
-                            </span>
-                        </a>
-
                         <p class="main-footer__copyright mb-0">
                             Designed and Developed by <a href="#" target="_blank"
                                 style="color:#000; font-weight:bold;">Aayan
@@ -246,9 +240,6 @@
     </div>
 
 
-    <div id="scroll-top" class="scroll-top">
-        <span id="scroll-top-value" class="scroll-top-value"></span>
-    </div>
     <!-- Bootstrap JS + SweetAlert -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

@@ -643,7 +643,7 @@ h6 {
 @media (max-width: 575px) {
 
     h1 br,
-    h2 br,
+    /* h2 br, */
     h3 br,
     h4 br,
     h5 br,
@@ -13179,8 +13179,11 @@ a+.listing-card-four__btns__hover {
 }
 @media (max-width: 575px) {
     .destination-filter__btn .gotur-btn {
-        padding: 15px 10px;
+        padding: 10px 5px;
         font-size: 14px;
+    }
+    .gotur-btn .icon{
+        top: 15px;
     }
 }
 
@@ -20740,7 +20743,7 @@ a+.listing-card-four__btns__hover {
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-bottom: 28px;
+    /* margin-bottom: 28px; */
 }
 
 .footer-widget__logo a {
@@ -20765,7 +20768,11 @@ a+.listing-card-four__btns__hover {
     align-items: center;
     gap: 10px;
 }
-
+@media (max-width: 575px) {
+    .footer-widget__social {
+        margin-bottom: 20px;
+    }
+}
 .footer-widget__social a {
     width: 30px;
     height: 30px;
@@ -20776,6 +20783,7 @@ a+.listing-card-four__btns__hover {
     color: var(--gotur-white, #fff);
     opacity: 0.7;
     transition: all 0.4s ease-in-out;
+    text-decoration: none;
 }
 
 .footer-widget__social a:hover {
