@@ -4,7 +4,7 @@
                 <div class="container">
                     <div class="main-footer__top__inner wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                         <div class="footer-widget__logo logo-retina">
-                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ramayan_logo.png" width="160" height="150"
+                            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ramayan_logo.png" width="150" height="120"
                                     alt="logo"></a>
                         </div>
                         <!-- /.footer-widget__logo -->
