@@ -117,7 +117,7 @@ session_start();
                                 <div class="destinations-card-two wow fadeInUp" data-wow-duration='1500ms'
                                     data-wow-delay='100ms'>
                                     <div class="destinations-card-two__thumb">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/places/ayodhya.png"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/places/kashi.png"
                                             alt="destinations image">
                                     </div>
                                     <!-- /.destinations-card-two__thumb -->
@@ -401,13 +401,13 @@ session_start();
                                 <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                     data-wow-delay='500ms'>
                                     <div class="destination-card-one__thumb">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/places/chitrakoot.png"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/places/kashi.png"
                                             alt="destination">
                                         <a href="#" class="destination-card-one__overly"></a>
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Chitrakoot</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#">Kashi</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -952,9 +952,12 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
-                                        </span></a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
+                                        data-car="innova crysta">
+                                        Book Now
+                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </a>
+
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -992,9 +995,12 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
-                                        </span></a>
+
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
+                                        data-car="innova">
+                                        Book Now
+                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1032,9 +1038,11 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
-                                        </span></a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
+                                        data-car="dzire new">
+                                        Book Now
+                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1072,9 +1080,11 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
-                                        </span></a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
+                                        data-car="aura">
+                                        Book Now
+                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1112,9 +1122,11 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
-                                        </span></a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
+                                        data-car="ertiga">
+                                        Book Now
+                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1152,9 +1164,11 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
-                                        </span></a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
+                                        data-car="xl6">
+                                        Book Now
+                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1192,9 +1206,11 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
-                                        </span></a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
+                                        data-car="kia">
+                                        Book Now
+                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1230,12 +1246,14 @@ session_start();
                                     <div class="listing-card-four__price">
                                         <span class="listing-card-four__price__sub">Rate</span>
                                         <span class="listing-card-four__price__number">
-                                            Rs.500/Night <br>(Toll Tax extra applicable)</span>
+                                            Get Custom Quotes <br>(Toll Tax extra applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
-                                        </span></a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
+                                        data-car="traveller">
+                                        Book Now
+                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                    </a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1546,10 +1564,11 @@ session_start();
                                                         </option>
                                                         <option value="innova">Innova (Rs.16/KM)</option>
                                                         <option value="dzire new">Dzire New (Rs.12/KM)</option>
+                                                        <option value="aura">Aura (Rs.11/KM)</option>
                                                         <option value="ertiga">Ertiga (Rs.16/KM)</option>
                                                         <option value="xl6">XL6 (Rs.16/KM)</option>
                                                         <option value="kia">KIA Carens (Rs.17/KM)</option>
-                                                        <option value="traveller">Traveller (Rs.500/Night)</option>
+                                                        <option value="traveller">Traveller (Custom Quotes)</option>
                                                     </select>
                                                     <div class="invalid-feedback">Please select a car.</div>
                                                 </div>
