@@ -4606,7 +4606,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .mobile-nav__content .logo-box {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     display: flex;
 }
 
@@ -4675,6 +4675,7 @@ body.megamenu-popup-active .mobile-nav__content {
     height: 46px;
     align-items: center;
     transition: 500ms;
+    text-decoration: none;
 }
 
 .mobile-nav__content .main-menu__list li ul li a {
@@ -4759,6 +4760,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .mobile-nav__contact li a {
     color: inherit;
     transition: 500ms;
+    text-decoration: none;
 }
 
 .mobile-nav__contact li a:hover {
@@ -13174,6 +13176,12 @@ a+.listing-card-four__btns__hover {
 .destination-filter__btn .gotur-btn {
     background-color: var(--gotur-black, #1D231F);
     padding: 6px 10px;
+}
+@media (max-width: 575px) {
+    .destination-filter__btn .gotur-btn {
+        padding: 15px 10px;
+        font-size: 14px;
+    }
 }
 
 .destination-filter__btn .gotur-btn:hover {

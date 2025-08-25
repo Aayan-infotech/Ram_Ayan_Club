@@ -167,56 +167,6 @@
     </div>
     <!-- /.page-wrapper -->
 
-    <div class="mobile-nav__wrapper">
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
-        <!-- /.mobile-nav__overlay -->
-        <div class="mobile-nav__content">
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-            <div class="logo-box logo-retina">
-                <a href="#" aria-label="logo image"><img src="assets/images/logo/ramayan_logo.png" width="158"
-                        alt="logo"></a>
-            </div>
-            <!-- /.logo-box -->
-            <div class="mobile-nav__container"></div>
-            <!-- /.mobile-nav__container -->
-            <ul class="mobile-nav__contact list-unstyled">
-                <li>
-                    <span class="mobile-nav__contact__icon">
-                        <i class="fa fa-envelope"></i>
-                    </span>
-                    <a href="mailto:ramayanclublko@gmail.com">ramayanclublko@gmail.com</a>
-                </li>
-                <li>
-                    <span class="mobile-nav__contact__icon">
-                        <i class="fa fa-phone-alt"></i>
-                    </span>
-                    <a href="tel:+917991850989">+91 7991850989</a>
-                </li>
-            </ul>
-            <!-- /.mobile-nav__contact -->
-            <div class="mobile-nav__social">
-                <a href="https://facebook.com" target="_blank">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                <a href="https://linkedin.com" target="_blank">
-                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                    <span class="sr-only">Linked In</span>
-                </a>
-                <a href="https://youtube.com" target="_blank">
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                    <span class="sr-only">Youtube</span>
-                </a>
-            </div>
-            <!-- /.mobile-nav__social -->
-        </div>
-        <!-- /.mobile-nav__content -->
-    </div>
-    <!-- /.mobile-nav__wrapper -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
         <!-- /.search-popup__overlay -->
