@@ -684,7 +684,7 @@ h6 {
 
 @media (max-width: 575px) {
     .section-space {
-        padding: 50px 0;
+        padding: 30px 0;
     }
 }
 
@@ -1105,6 +1105,7 @@ h6 {
     width: 100%;
     height: 100%;
 }
+
 
 /* post paginations */
 
@@ -10559,7 +10560,8 @@ body.megamenu-popup-active .mobile-nav__content {
 } */
 .listing-card-four__image {
     position: relative;
-    overflow: hidden; /* image zoom cut na ho */
+    overflow: hidden;
+    /* image zoom cut na ho */
 }
 
 .listing-card-four__image img {
@@ -10568,7 +10570,8 @@ body.megamenu-popup-active .mobile-nav__content {
     width: 100%;
     transform: scale(1);
     transition: transform 0.4s ease-in-out;
-    z-index: 2; /* image upar rahe */
+    z-index: 2;
+    /* image upar rahe */
     position: relative;
 }
 
@@ -10583,12 +10586,14 @@ body.megamenu-popup-active .mobile-nav__content {
     opacity: 0;
     visibility: hidden;
     transition: all 0.4s ease-in-out;
-    z-index: 1; /* overlay neeche rahe */
+    z-index: 1;
+    /* overlay neeche rahe */
 }
 
 /* Hover Effect */
 .listing-card-four__image:hover img {
-    transform: scale(1.1); /* zoom in */
+    transform: scale(1.1);
+    /* zoom in */
 }
 
 .listing-card-four__image:hover .listing-card-four__image__overly {
@@ -10785,6 +10790,7 @@ a+.listing-card-four__btns__hover {
     color: inherit;
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
     transition: all 500ms ease;
+    text-decoration: none;
 }
 
 .listing-card-four__title a:hover {
@@ -13177,13 +13183,11 @@ a+.listing-card-four__btns__hover {
     background-color: var(--gotur-black, #1D231F);
     padding: 6px 10px;
 }
+
 @media (max-width: 575px) {
     .destination-filter__btn .gotur-btn {
         padding: 10px 5px;
         font-size: 14px;
-    }
-    .gotur-btn .icon{
-        top: 15px;
     }
 }
 
@@ -20768,11 +20772,13 @@ a+.listing-card-four__btns__hover {
     align-items: center;
     gap: 10px;
 }
+
 @media (max-width: 575px) {
     .footer-widget__social {
         margin-bottom: 20px;
     }
 }
+
 .footer-widget__social a {
     width: 30px;
     height: 30px;
@@ -21244,6 +21250,15 @@ body.boxed-wrapper .testimonials-three__inner {
     color: #fff;
 }
 
+@media (max-width: 768px) {
+
+    .taxi-image h2,
+    .taxi-image h4 {
+        color: #fff;
+        font-size: 16px;
+    }
+}
+
 .form-section {
     padding: 30px;
 }
@@ -21301,3 +21316,43 @@ body.boxed-wrapper .testimonials-three__inner {
         height: 300px;
     }
 } */
+.page-sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-sections>section {
+    order: initial;
+}
+
+@media (max-width: 768px) {
+    #booking {
+        order: 2;
+        /* 2nd */
+    }
+
+    #guide {
+        order: 3;
+        /* 3rd */
+    }
+
+    #about {
+        order: 4;
+    }
+
+    #destination {
+        order: 5;
+    }
+
+    #counterexperience {
+        order: 6;
+    }
+
+    #testimonials {
+        order: 7;
+    }
+
+    #blog {
+        order: 8;
+    }
+}
