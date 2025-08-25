@@ -349,93 +349,17 @@ session_start();
             <!-- /.destination-filter__top -->
             <div class="tabs-box">
                 <div class="destination-filter__btn tab-buttons">
-                    <button data-tab="#itemOne" class="tab-btn gotur-btn">Maharashtra</button>
-                    <button data-tab="#itemTwo" class="tab-btn gotur-btn active-btn">Uttar Pradesh</button>
-                    <button data-tab="#itemThree" class="tab-btn gotur-btn">Madhya Pradesh</button>
+                    <button data-tab="#itemOne" class="tab-btn gotur-btn active-btn">Uttar Pradesh</button>
+                    <button data-tab="#itemTwo" class="tab-btn gotur-btn">Madhya Pradesh</button>
+                    <!-- <button data-tab="#itemThree" class="tab-btn gotur-btn">Maharashtra</button> -->
                     <!-- <button data-tab="#itemFour" class="tab-btn gotur-btn">South America</button>
                         <button data-tab="#itemFive" class="tab-btn gotur-btn">Australia</button> -->
                 </div>
                 <!-- /.tab-buttons -->
                 <div class="tabs-content">
-                    <div class="item tab" id="itemOne">
-                        <div class="row gutter-y-20 gutter-x-20">
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
-                                <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
-                                    data-wow-delay='100ms'>
-                                    <div class="destination-card-one__thumb">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/gateway.jpg"
-                                            alt="destination">
-                                        <a href="#" class="destination-card-one__overly"></a>
-                                    </div>
-                                    <!-- /.destination-card-one__thumb -->
-                                    <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Gateway</a></h3>
-                                        <!-- /.destination-card-one__title -->
-                                    </div>
-                                    <!-- /.destination-one__content -->
-                                </div>
-                                <!-- /.destination-one -->
-                            </div>
-                            <!-- /.col-xl-3 col-lg-4 col-md-4 col-sm-6 -->
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
-                                <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
-                                    data-wow-delay='300ms'>
-                                    <div class="destination-card-one__thumb">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/siddhivinayak.jpg"
-                                            alt="destination">
-                                        <a href="#" class="destination-card-one__overly"></a>
-                                    </div>
-                                    <!-- /.destination-card-one__thumb -->
-                                    <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Siddhivinayak</a></h3>
-                                        <!-- /.destination-card-one__title -->
-                                    </div>
-                                    <!-- /.destination-one__content -->
-                                </div>
-                                <!-- /.destination-one -->
-                            </div>
-                            <!-- /.col-xl-3 col-lg-4 col-md-4 col-sm-6 -->
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
-                                <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
-                                    data-wow-delay='500ms'>
-                                    <div class="destination-card-one__thumb">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/mahabaleshwar.jpg"
-                                            alt="destination">
-                                        <a href="#" class="destination-card-one__overly"></a>
-                                    </div>
-                                    <!-- /.destination-card-one__thumb -->
-                                    <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Mahabaleshwar</a></h3>
-                                        <!-- /.destination-card-one__title -->
-                                    </div>
-                                    <!-- /.destination-one__content -->
-                                </div>
-                                <!-- /.destination-one -->
-                            </div>
-                            <!-- /.col-xl-3 col-lg-4 col-md-4 col-sm-6 -->
-                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
-                                <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
-                                    data-wow-delay='600ms'>
-                                    <div class="destination-card-one__thumb">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/taj.jpg"
-                                            alt="destination">
-                                        <a href="#" class="destination-card-one__overly"></a>
-                                    </div>
-                                    <!-- /.destination-card-one__thumb -->
-                                    <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Taj Hotel</a></h3>
-                                        <!-- /.destination-card-one__title -->
-                                    </div>
-                                    <!-- /.destination-one__content -->
-                                </div>
-                                <!-- /.destination-one -->
-                            </div>
-                            <!-- /.col-xl-3 col-lg-4 col-md-4 col-sm-6 -->
-                        </div>
-                        <!-- /.row -->
-                    </div>
+
                     <!-- /.item -->
-                    <div class="item tab active-tab" id="itemTwo">
+                    <div class="item tab active-tab" id="itemOne">
                         <div class="row gutter-y-20 gutter-x-20">
                             <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
                                 <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
@@ -513,7 +437,7 @@ session_start();
                         <!-- /.row -->
                     </div>
                     <!-- /.item -->
-                    <div class="item tab" id="itemThree">
+                    <div class="item tab" id="itemTwo">
                         <div class="row gutter-y-20 gutter-x-20">
                             <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
                                 <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
@@ -591,6 +515,84 @@ session_start();
                         <!-- /.row -->
                     </div>
                     <!-- /.item -->
+                    <div class="item tab" id="itemThree">
+                        <div class="row gutter-y-20 gutter-x-20">
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='100ms'>
+                                    <div class="destination-card-one__thumb">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/gateway.jpg"
+                                            alt="destination">
+                                        <a href="#" class="destination-card-one__overly"></a>
+                                    </div>
+                                    <!-- /.destination-card-one__thumb -->
+                                    <div class="destination-card-one__content">
+                                        <h3 class="destination-card-one__title"><a href="#">Gateway</a></h3>
+                                        <!-- /.destination-card-one__title -->
+                                    </div>
+                                    <!-- /.destination-one__content -->
+                                </div>
+                                <!-- /.destination-one -->
+                            </div>
+                            <!-- /.col-xl-3 col-lg-4 col-md-4 col-sm-6 -->
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='300ms'>
+                                    <div class="destination-card-one__thumb">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/siddhivinayak.jpg"
+                                            alt="destination">
+                                        <a href="#" class="destination-card-one__overly"></a>
+                                    </div>
+                                    <!-- /.destination-card-one__thumb -->
+                                    <div class="destination-card-one__content">
+                                        <h3 class="destination-card-one__title"><a href="#">Siddhivinayak</a></h3>
+                                        <!-- /.destination-card-one__title -->
+                                    </div>
+                                    <!-- /.destination-one__content -->
+                                </div>
+                                <!-- /.destination-one -->
+                            </div>
+                            <!-- /.col-xl-3 col-lg-4 col-md-4 col-sm-6 -->
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='500ms'>
+                                    <div class="destination-card-one__thumb">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/mahabaleshwar.jpg"
+                                            alt="destination">
+                                        <a href="#" class="destination-card-one__overly"></a>
+                                    </div>
+                                    <!-- /.destination-card-one__thumb -->
+                                    <div class="destination-card-one__content">
+                                        <h3 class="destination-card-one__title"><a href="#">Mahabaleshwar</a></h3>
+                                        <!-- /.destination-card-one__title -->
+                                    </div>
+                                    <!-- /.destination-one__content -->
+                                </div>
+                                <!-- /.destination-one -->
+                            </div>
+                            <!-- /.col-xl-3 col-lg-4 col-md-4 col-sm-6 -->
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                                <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
+                                    data-wow-delay='600ms'>
+                                    <div class="destination-card-one__thumb">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maharashtra/taj.jpg"
+                                            alt="destination">
+                                        <a href="#" class="destination-card-one__overly"></a>
+                                    </div>
+                                    <!-- /.destination-card-one__thumb -->
+                                    <div class="destination-card-one__content">
+                                        <h3 class="destination-card-one__title"><a href="#">Taj Hotel</a></h3>
+                                        <!-- /.destination-card-one__title -->
+                                    </div>
+                                    <!-- /.destination-one__content -->
+                                </div>
+                                <!-- /.destination-one -->
+                            </div>
+                            <!-- /.col-xl-3 col-lg-4 col-md-4 col-sm-6 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+
                     <div class="item tab" id="itemFour">
                         <div class="row gutter-y-20 gutter-x-20">
                             <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
@@ -951,7 +953,7 @@ session_start();
                                     </div>
                                     <!-- /.listing-card-four__price -->
                                     <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon"><i class="fa-solid fa-arrow-right"></i>
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
                                         </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
@@ -991,7 +993,7 @@ session_start();
                                     </div>
                                     <!-- /.listing-card-four__price -->
                                     <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon"><i class="fa-solid fa-arrow-right"></i>
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
                                         </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
@@ -1031,7 +1033,7 @@ session_start();
                                     </div>
                                     <!-- /.listing-card-four__price -->
                                     <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon"><i class="fa-solid fa-arrow-right"></i>
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
                                         </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
@@ -1071,7 +1073,7 @@ session_start();
                                     </div>
                                     <!-- /.listing-card-four__price -->
                                     <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon"><i class="fa-solid fa-arrow-right"></i>
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
                                         </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
@@ -1111,7 +1113,7 @@ session_start();
                                     </div>
                                     <!-- /.listing-card-four__price -->
                                     <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon"><i class="fa-solid fa-arrow-right"></i>
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
                                         </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
@@ -1151,7 +1153,7 @@ session_start();
                                     </div>
                                     <!-- /.listing-card-four__price -->
                                     <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon"><i class="fa-solid fa-arrow-right"></i>
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
                                         </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
@@ -1191,7 +1193,7 @@ session_start();
                                     </div>
                                     <!-- /.listing-card-four__price -->
                                     <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon"><i class="fa-solid fa-arrow-right"></i>
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
                                         </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
@@ -1232,7 +1234,7 @@ session_start();
                                     </div>
                                     <!-- /.listing-card-four__price -->
                                     <a href="#booking" class="listing-card-four__btn gotur-btn">
-                                        Book Now <span class="icon"><i class="fa-solid fa-arrow-right"></i>
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
                                         </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->

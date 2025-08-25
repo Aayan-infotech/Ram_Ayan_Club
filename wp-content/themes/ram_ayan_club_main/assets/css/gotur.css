@@ -13184,12 +13184,6 @@ a+.listing-card-four__btns__hover {
     padding: 6px 10px;
 }
 
-@media (max-width: 575px) {
-    .destination-filter__btn .gotur-btn {
-        padding: 10px 5px;
-        font-size: 14px;
-    }
-}
 
 .destination-filter__btn .gotur-btn:hover {
     background-color: transparent;
@@ -13218,7 +13212,14 @@ a+.listing-card-four__btns__hover {
     right: 5%;
     animation: topToBottom 4000ms ease-in-out infinite;
 }
-
+@media (max-width: 768px) {
+    .destination-filter__element img {
+        display: none;
+    }
+    .custom-icon{
+        top:15px !important;
+    }
+}
 .destination-filter__element-two {
     position: absolute;
     bottom: 0;

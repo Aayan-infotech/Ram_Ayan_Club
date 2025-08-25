@@ -146,8 +146,9 @@
                             Copyright &copy; <span class="dynamic-year"></span> | Ram Ayan Club
                         </p>
 
+                        
                         <p class="main-footer__copyright mb-0">
-                            Designed and Developed by <a href="#" target="_blank"
+                            Designed and Developed by <a href="https://aayaninfotech.com" target="_blank"
                                 style="color:#000; font-weight:bold;">Aayan
                                 Infotech</a>
                         </p>
@@ -161,6 +162,7 @@
     </div>
     <!-- /.page-wrapper -->
 
+    <!-- /.mobile-nav__wrapper -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
         <!-- /.search-popup__overlay -->
@@ -179,7 +181,7 @@
         <div class="header-right-sidebar__content">
             <span class="header-right-sidebar__close header-right-sidebar__toggler"><i class="fa fa-times"></i></span>
             <div class="header-right-sidebar__logo-box">
-                <a href="#" aria-label="logo image"> <img src="assets/images/logo-landing.png" width="158" alt="gotur">
+                <a href="#" aria-label="logo image"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-landing.png" width="158" alt="gotur">
                 </a>
             </div>
             <div class="header-right-sidebar__container">
@@ -241,7 +243,6 @@
 
 
     <!-- Bootstrap JS + SweetAlert -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
