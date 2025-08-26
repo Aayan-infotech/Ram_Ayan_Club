@@ -21327,13 +21327,14 @@ body.boxed-wrapper .testimonials-three__inner {
 }
 
 @media (max-width: 768px) {
-    #booking {
+    #guide {
         order: 2;
+        padding-top: 40px;
         /* 2nd */
     }
-
-    #guide {
+    #booking {
         order: 3;
+        padding-top: 0px;
         /* 3rd */
     }
 

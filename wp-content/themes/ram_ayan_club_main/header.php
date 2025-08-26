@@ -95,7 +95,7 @@
                     <div class="main-header__logo logo-retina">
                         <a href="index.php"><img
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/ramayan_logo.png"
-                                alt="logo" width="130" height="100"></a>
+                                alt="logo" width="150" height="100"></a>
                     </div>
                     <!-- /.main-header__logo -->
                     <div class="main-header__right">

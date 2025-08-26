@@ -1493,6 +1493,7 @@ session_start();
                                 <div class="form-section">
                                     <h3 class="header-title">Book Your Fleet Online</h3>
 
+
                                     <form action="#" method="POST" id="bookingForm" novalidate>
                                         <div class="row">
                                             <div class="col-md-6">
@@ -1503,7 +1504,7 @@ session_start();
                                                     <div class="invalid-feedback">Please enter your name.</div>
                                                 </div>
                                             </div>
-
+ 
                                             <div class="col-md-6">
                                                 <div class="form-group mb-3">
                                                     <label for="phoneNumber" class="form-label">Phone Number</label>
@@ -1515,14 +1516,14 @@ session_start();
                                                 </div>
                                             </div>
                                         </div>
-
+ 
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group mb-3">
                                                     <label for="startDestination" class="form-label">Start
                                                         Destination</label>
                                                     <input type="text" name="startDestination" class="form-control"
-                                                        id="startDestination" placeholder="Start Destination" required>
+                                                        id="startDestination" placeholder="Start Destination">
                                                     <div class="invalid-feedback">Please enter start location.</div>
                                                 </div>
                                             </div>
@@ -1531,18 +1532,18 @@ session_start();
                                                     <label for="endDestination" class="form-label">End
                                                         Destination</label>
                                                     <input type="text" name="endDestination" class="form-control"
-                                                        id="endDestination" placeholder="End Destination" required>
+                                                        id="endDestination" placeholder="End Destination">
                                                     <div class="invalid-feedback">Please enter destination.</div>
                                                 </div>
                                             </div>
                                         </div>
-
+ 
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group mb-3">
                                                     <label for="passenger" class="form-label">Passenger</label>
                                                     <select class="form-control form-select" name="passenger"
-                                                        id="passenger" required>
+                                                        id="passenger">
                                                         <option selected disabled value="">Select Passenger</option>
                                                         <option value="1">1 Passenger</option>
                                                         <option value="2-4">2-3 Passengers</option>
@@ -1568,37 +1569,45 @@ session_start();
                                                         <option value="ertiga">Ertiga (Rs.16/KM)</option>
                                                         <option value="xl6">XL6 (Rs.16/KM)</option>
                                                         <option value="kia">KIA Carens (Rs.17/KM)</option>
-                                                        <option value="traveller">Traveller (Custom Quotes)</option>
+                                                        <option value="traveller">Traveller (Rs.500/Night)</option>
                                                     </select>
                                                     <div class="invalid-feedback">Please select a car.</div>
                                                 </div>
                                             </div>
                                         </div>
-
+ 
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group mb-3">
                                                     <label for="startDate" class="form-label">Select Start
                                                         Date</label>
                                                     <input type="date" name="startDate" class="form-control"
-                                                        id="startDate" required>
+                                                        id="startDate" >
                                                     <div class="invalid-feedback">Please select start date.</div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group mb-3">
                                                     <label for="endDate" class="form-label">Select End Date</label>
-                                                    <input type="date" name="endDate" class="form-control" id="endDate"
-                                                        required>
+                                                    <input type="date" name="endDate" class="form-control" id="endDate">
                                                     <div class="invalid-feedback">Please select end date.</div>
                                                 </div>
                                             </div>
                                         </div>
                                         <?php wp_nonce_field('booking_form_action', 'booking_form_nonce'); ?>
                                         <input type="hidden" name="action" value="booking_form_submit">
-                                        <button type="submit" class="btn btn-book" style="background: #ffc107;">
-                                            <i class="fas fa-taxi me-2"></i> Submit
-                                        </button>
+                                           <!--  reCAPTCHA field -->
+                                            <div class="mb-3">
+    <div class="g-recaptcha" data-sitekey="6Lewm7ErAAAAAAFpxWPRLayj0pKHdeEUeoEQMl8C"></div>
+    <span id="captcha-error" style="color:red;display:none;">Please verify that you are not a robot.</span>
+</div>
+ 
+                                            <button type="submit" class="btn btn-book" style="background: #ffc107;">
+                                                <i class="fas fa-taxi me-2"></i> Submit
+                                            </button>
+ 
+                                            <!--  reCAPTCHA script -->
+                                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                                     </form>
                                 </div>
                             </div>

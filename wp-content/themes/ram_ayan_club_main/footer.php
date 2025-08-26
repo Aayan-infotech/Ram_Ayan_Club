@@ -275,6 +275,22 @@
         }, false);
     })();
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form");
+    const errorMsg = document.getElementById("captcha-error");
+
+    form.addEventListener("submit", function (e) {
+        const response = grecaptcha.getResponse();
+        if (response.length === 0) {
+            e.preventDefault(); 
+            errorMsg.style.display = "block";
+        } else {
+            errorMsg.style.display = "none";
+        }
+    });
+});
+</script>
 
 <?php if (isset($_SESSION['msg'])): ?>
     <script>

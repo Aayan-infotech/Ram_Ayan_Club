@@ -141,3 +141,45 @@ add_action('wp_footer', function () {
         </script>
     <?php }
 });
+// end
+ 
+add_action('admin_post_nopriv_booking_form_submit', 'handle_booking_form');
+add_action('admin_post_booking_form_submit', 'handle_booking_form');
+ 
+function handle_booking_form() {
+    if ( ! isset($_POST['booking_form_nonce']) ||
+         ! wp_verify_nonce($_POST['booking_form_nonce'], 'booking_form_action') ) {
+        wp_die('Security check failed.');
+    }
+ 
+    // ✅ reCAPTCHA check
+    if ( isset($_POST['g-recaptcha-response']) && ! empty($_POST['g-recaptcha-response']) ) {
+        $recaptcha_response = sanitize_text_field($_POST['g-recaptcha-response']);
+ 
+        // 👇 Make sure secret key is single-line
+        $secret_key = "6Lewm7ErAAAAAFihlL1at_4o5KolQLyZ0WgCl-E5";
+ 
+        $response = wp_remote_post(
+            "https://www.google.com/recaptcha/api/siteverify",
+            array(
+                'body' => array(
+                    'secret'   => $secret_key,
+                    'response' => $recaptcha_response,
+                    'remoteip' => $_SERVER['REMOTE_ADDR']
+                )
+            )
+        );
+ 
+        $response_keys = json_decode(wp_remote_retrieve_body($response), true);
+ 
+        if ( empty($response_keys["success"]) || $response_keys["success"] !== true ) {
+            wp_die("reCAPTCHA verification failed. Please try again.");
+        }
+    } else {
+        wp_die("Please verify reCAPTCHA.");
+    }
+ 
+    // ✅ Success redirect
+    wp_redirect(home_url('/thank-you/'));
+    exit;
+}
