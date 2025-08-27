@@ -117,7 +117,7 @@ session_start();
                                 <div class="destinations-card-two wow fadeInUp" data-wow-duration='1500ms'
                                     data-wow-delay='100ms'>
                                     <div class="destinations-card-two__thumb">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/places/kashi.png"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/places/ayodhya.png"
                                             alt="destinations image">
                                     </div>
                                     <!-- /.destinations-card-two__thumb -->
@@ -371,7 +371,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Ayodhya</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Ayodhya</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -389,7 +389,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Mathura</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Mathura</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -401,13 +401,13 @@ session_start();
                                 <div class="destination-card-one wow fadeInUp" data-wow-duration='1500ms'
                                     data-wow-delay='500ms'>
                                     <div class="destination-card-one__thumb">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/places/kashi.png"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/places/chitrakoot.png"
                                             alt="destination">
                                         <a href="#" class="destination-card-one__overly"></a>
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Kashi</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Chitrakoot</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -425,7 +425,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Pryagraj</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Pryagraj</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -449,7 +449,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Mahakaal</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Mahakaal</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -467,7 +467,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Omkareshwar</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Omkareshwar</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -485,7 +485,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Orchha Fort</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Orchha Fort</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -503,7 +503,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Kal Bhairav</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Kal Bhairav</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -527,7 +527,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Gateway</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Gateway</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -545,7 +545,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Siddhivinayak</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Siddhivinayak</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -563,7 +563,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Mahabaleshwar</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Mahabaleshwar</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -581,7 +581,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Taj Hotel</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Taj Hotel</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -605,7 +605,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Bangkok</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Bangkok</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -623,7 +623,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Tokyo</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Tokyo</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -641,7 +641,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Kashmir</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Kashmir</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -659,7 +659,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Indonesia</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Indonesia</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -683,7 +683,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Bangkok</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Bangkok</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -701,7 +701,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Tokyo</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Tokyo</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -719,7 +719,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Kashmir</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Kashmir</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -737,7 +737,7 @@ session_start();
                                     </div>
                                     <!-- /.destination-card-one__thumb -->
                                     <div class="destination-card-one__content">
-                                        <h3 class="destination-card-one__title"><a href="#">Indonesia</a></h3>
+                                        <h3 class="destination-card-one__title"><a href="#booking">Indonesia</a></h3>
                                         <!-- /.destination-card-one__title -->
                                     </div>
                                     <!-- /.destination-one__content -->
@@ -952,12 +952,9 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
-                                        data-car="innova crysta">
-                                        Book Now
-                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                    </a>
-
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
+                                        </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -995,12 +992,9 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
-                                        data-car="innova">
-                                        Book Now
-                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                    </a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
+                                        </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1038,11 +1032,9 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
-                                        data-car="dzire new">
-                                        Book Now
-                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                    </a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
+                                        </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1080,11 +1072,9 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
-                                        data-car="aura">
-                                        Book Now
-                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                    </a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
+                                        </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1122,11 +1112,9 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
-                                        data-car="ertiga">
-                                        Book Now
-                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                    </a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
+                                        </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1164,11 +1152,9 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
-                                        data-car="xl6">
-                                        Book Now
-                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                    </a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
+                                        </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1206,11 +1192,9 @@ session_start();
                                             applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
-                                        data-car="kia">
-                                        Book Now
-                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                    </a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
+                                        </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1246,14 +1230,12 @@ session_start();
                                     <div class="listing-card-four__price">
                                         <span class="listing-card-four__price__sub">Rate</span>
                                         <span class="listing-card-four__price__number">
-                                            Get Custom Quotes <br>(Toll Tax extra applicable)</span>
+                                            Rs.500/Night <br>(Toll Tax extra applicable)</span>
                                     </div>
                                     <!-- /.listing-card-four__price -->
-                                    <a href="#booking" class="listing-card-four__btn gotur-btn book-now"
-                                        data-car="traveller">
-                                        Book Now
-                                        <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                    </a>
+                                    <a href="#booking" class="listing-card-four__btn gotur-btn">
+                                        Book Now <span class="icon custom-icon"><i class="fa-solid fa-arrow-right"></i>
+                                        </span></a>
                                 </div>
                                 <!-- /.listing-card-four__content__btn -->
                             </div>
@@ -1493,7 +1475,6 @@ session_start();
                                 <div class="form-section">
                                     <h3 class="header-title">Book Your Fleet Online</h3>
 
-
                                     <form action="#" method="POST" id="bookingForm" novalidate>
                                         <div class="row">
                                             <div class="col-md-6">
@@ -1504,7 +1485,7 @@ session_start();
                                                     <div class="invalid-feedback">Please enter your name.</div>
                                                 </div>
                                             </div>
- 
+
                                             <div class="col-md-6">
                                                 <div class="form-group mb-3">
                                                     <label for="phoneNumber" class="form-label">Phone Number</label>
@@ -1516,9 +1497,9 @@ session_start();
                                                 </div>
                                             </div>
                                         </div>
- 
+
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <!-- <div class="col-md-6">
                                                 <div class="form-group mb-3">
                                                     <label for="startDestination" class="form-label">Start
                                                         Destination</label>
@@ -1526,8 +1507,8 @@ session_start();
                                                         id="startDestination" placeholder="Start Destination">
                                                     <div class="invalid-feedback">Please enter start location.</div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-6">
+                                            </div> -->
+                                            <!-- <div class="col-md-6">
                                                 <div class="form-group mb-3">
                                                     <label for="endDestination" class="form-label">End
                                                         Destination</label>
@@ -1535,9 +1516,9 @@ session_start();
                                                         id="endDestination" placeholder="End Destination">
                                                     <div class="invalid-feedback">Please enter destination.</div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
- 
+
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group mb-3">
@@ -1565,7 +1546,6 @@ session_start();
                                                         </option>
                                                         <option value="innova">Innova (Rs.16/KM)</option>
                                                         <option value="dzire new">Dzire New (Rs.12/KM)</option>
-                                                        <option value="aura">Aura (Rs.11/KM)</option>
                                                         <option value="ertiga">Ertiga (Rs.16/KM)</option>
                                                         <option value="xl6">XL6 (Rs.16/KM)</option>
                                                         <option value="kia">KIA Carens (Rs.17/KM)</option>
@@ -1575,7 +1555,7 @@ session_start();
                                                 </div>
                                             </div>
                                         </div>
- 
+
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group mb-3">
@@ -1593,22 +1573,22 @@ session_start();
                                                     <div class="invalid-feedback">Please select end date.</div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> 
                                         <?php wp_nonce_field('booking_form_action', 'booking_form_nonce'); ?>
                                         <input type="hidden" name="action" value="booking_form_submit">
                                            <!--  reCAPTCHA field -->
                                             <div class="mb-3">
-    <div class="g-recaptcha" data-sitekey="6Lewm7ErAAAAAAFpxWPRLayj0pKHdeEUeoEQMl8C"></div>
-    <span id="captcha-error" style="color:red;display:none;">Please verify that you are not a robot.</span>
-</div>
- 
+                                                <div class="g-recaptcha" data-sitekey="6Lewm7ErAAAAAAFpxWPRLayj0pKHdeEUeoEQMl8C"></div>
+                                            </div>
+
                                             <button type="submit" class="btn btn-book" style="background: #ffc107;">
                                                 <i class="fas fa-taxi me-2"></i> Submit
                                             </button>
- 
+
                                             <!--  reCAPTCHA script -->
                                             <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                                     </form>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -1686,9 +1666,11 @@ session_start();
                                     </ul>
                                 </div>
                                 <h3 class="blog-card-two__title">
-                                    <a href="<? //php the_permalink(); ?>"><?php the_title(); ?></a>
+                                    <a href="#booking"><?php the_title(); ?></a>
+                                    <!-- <php the_permalink(); ?> -->
                                 </h3>
-                                <a href="<? //php the_permalink(); ?>" class="blog-card-two__content__btn">
+                                <a href="#booking" class="blog-card-two__content__btn">
+                                    <!-- <php the_permalink(); ?> -->
                                     Read More <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
