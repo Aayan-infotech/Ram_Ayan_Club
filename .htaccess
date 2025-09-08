@@ -1,16 +1,91 @@
-
-# BEGIN WordPress
-# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
+# <IfModule mod_rewrite.c>
+# RewriteEngine On
+# RewriteBase /
+# DirectoryIndex index.php
+# RewriteRule ^index.php$ - [L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule . /index.php [L]
+# </IfModule>
+ 
+ 
+# BEGIN WordPress Security Hardening
+ 
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /ram_ayan_club/
-RewriteRule ^index\.php$ - [L]
+RewriteBase /
+DirectoryIndex index.php
+RewriteRule ^index.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /ram_ayan_club/index.php [L]
+RewriteRule . /index.php [L]
 </IfModule>
-
-# END WordPress
+ 
+# ======================
+# SECURITY RULES
+# ======================
+ 
+# Disable directory browsing
+Options -Indexes
+ 
+# Protect .htaccess itself
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+ 
+# Protect wp-config.php
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
+ 
+# Block XML-RPC (brute force attacks)
+<Files xmlrpc.php>
+order allow,deny
+deny from all
+</Files>
+ 
+# Protect sensitive files
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak|sql)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+ 
+# Disable access to wp-includes except needed files
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wp-admin/includes/ - [F,L]
+RewriteRule !^wp-includes/ - [S=3]
+RewriteRule ^wp-includes/[^/]+\.php$ - [F,L]
+RewriteRule ^wp-includes/js/tinymce/langs/.+\.php$ - [F,L]
+RewriteRule ^wp-includes/theme-compat/ - [F,L]
+</IfModule>
+ 
+# Disable script execution in uploads (malware protection)
+<Directory "/wp-content/uploads">
+<FilesMatch "\.(php|php\.)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+</Directory>
+ 
+# OPTIONAL: Block common bad bots (but keep real users & Googlebot)
+SetEnvIfNoCase User-Agent "AhrefsBot" bad_bot
+SetEnvIfNoCase User-Agent "SemrushBot" bad_bot
+SetEnvIfNoCase User-Agent "MJ12bot" bad_bot
+SetEnvIfNoCase User-Agent "DotBot" bad_bot
+SetEnvIfNoCase User-Agent "Baiduspider" bad_bot
+Order Allow,Deny
+Allow from all
+Deny from env=bad_bot
+ 
+# Protect wp-admin (optional: allow only your IP)
+# <Files wp-login.php>
+# Order Deny,Allow
+# Deny from all
+# Allow from YOUR_IP_HERE
+# </Files>
+ 
+# END WordPress Security Hardening
