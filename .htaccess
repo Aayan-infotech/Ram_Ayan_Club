@@ -38,7 +38,7 @@ ServerSignature Off
 </FilesMatch>
  
 # Prevent access to readme.html and license.txt
-<FilesMatch "^(readme\.html|license\.txt|wp-config-sample\.php)$">
+<FilesMatch "^(readme\.html|license\.txt|wp-config-sample\.php|robots\.txt|sitemap\.xml)$">
   Require all denied
 </FilesMatch>
  
