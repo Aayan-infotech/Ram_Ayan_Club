@@ -1,0 +1,19 @@
+# robots.txt for PHP project
+ 
+# Block everything by default
+User-agent: *
+Disallow: /
+ 
+# Allow Google SEO bot
+User-agent: Googlebot
+Disallow:
+ 
+# Optional: allow Google image, mobile, news crawlers
+User-agent: Googlebot-Image
+Disallow:
+ 
+User-agent: Googlebot-Mobile
+Disallow:
+ 
+User-agent: Googlebot-News
+Disallow:
