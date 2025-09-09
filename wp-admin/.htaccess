@@ -1,0 +1,11 @@
+<IfModule mod_geoip.c>
+    GeoIPEnable On
+    GeoIPDBFile /usr/share/GeoIP/GeoIP.dat
+ 
+    # Allow only India (country code IN)
+    SetEnvIf GEOIP_COUNTRY_CODE IN AllowCountry
+ 
+    Order Deny,Allow
+    Deny from all
+    Allow from env=AllowCountry
+</IfModule>
