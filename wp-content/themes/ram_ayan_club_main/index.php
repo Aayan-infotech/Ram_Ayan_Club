@@ -1621,8 +1621,8 @@ session_start();
     <section class="blog-five section-space" id="blog">
         <div class="container">
             <div class="sec-title text-center">
-                <h6 class="sec-title__tagline bw-split-in-right">Recent Stories</h6>
-                <h3 class="sec-title__title bw-split-in-left">Explore Our <span>Recent Stories</span></h3>
+                <h6 class="sec-title__tagline bw-split-in-right">Recent Blog</h6>
+                <h3 class="sec-title__title bw-split-in-left">Explore Our <span>Blogs</span></h3>
             </div>
 
             <!-- blog -->

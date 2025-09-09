@@ -106,7 +106,7 @@
                                 <li class="scrollToLink"><a href="#destination">Travel Spots</a></li>
                                 <li class="scrollToLink"><a href="#guide">Our Fleet</a></li>
                                 <li class="scrollToLink"><a href="#testimonials">Testimonials</a></li>
-                                <li class="scrollToLink"><a href="#blog">Our Stories</a></li>
+                                <li class="scrollToLink"><a href="#blog">Blog</a></li>
 
                             </ul>
                         </nav>
