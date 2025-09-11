@@ -45,7 +45,7 @@
                     <ul class="list-unstyled top-one__info">
                         <li class="top-one__info__item">
                             <i class="fas fa-phone"></i>
-                            <a href="tel:+917991850989">+91 7991850989</a>
+                            <a href="tel:+919956869933">+91 9956869933</a>
                         </li>
                         <!-- /.top-one__info__item -->
                         <li class="top-one__info__item">
@@ -150,7 +150,7 @@
                         <span class="mobile-nav__contact__icon">
                             <i class="fa fa-phone-alt"></i>
                         </span>
-                        <a href="tel:+917991850989">+91 7991850989</a>
+                        <a href="tel:+919956869933">+91 9956869933</a>
                     </li>
                 </ul>
                 <!-- /.mobile-nav__contact -->

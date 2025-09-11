@@ -28,7 +28,7 @@
                         <!-- /.footer-widget__list__icon -->
                         <div class="footer-widget__list__content">
                             <span class="footer-widget__list__subtitle">Call Agent</span>
-                            <a href="tel:+917991850989">+91 7991850989</a>
+                            <a href="tel:+919956869933">+91 9956869933</a>
                         </div>
                         <!-- /.footer-widget__list__content -->
                     </li>
