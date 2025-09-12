@@ -63,7 +63,7 @@
                             Ram Ayan Club is your trusted travel partner <br>for <strong>Ayodhya, Kashi,
                                 Prayagraj,
                                 Mathura and <br>other holy destinations</strong>. We ensure a comfortable, <br>
-                            spiritual, and memorable journey.
+                            cultural, and memorable journey.
                         </p>
                         <!-- /.footer-widget__about-text -->
 

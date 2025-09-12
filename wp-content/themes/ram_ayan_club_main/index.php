@@ -14,12 +14,12 @@ session_start();
                         <div class="main-slider-one__content">
                             <h5 class="main-slider-one__sub-title main-three bw-split-in-top">Welcome to</h5>
                             <h2 class="main-slider-one__title main-three bw-split-in-down">Ram Ayan Club <br>
-                                Spiritual Journeys</h2>
+                                Cultural Journeys</h2>
                             <!-- <p class="main-slider-one__text main-three bw-split-in-down">Embark on a divine journey
                                     with us. Explore Ayodhya, Ram Mandir,
                                     Kashi, Mathura, Chitrakoot and sacred destinations of India.
                                     Ram Ayan Club brings you closer to faith, culture, and the
-                                    spiritual essence of Bharat.</p> -->
+                                    Cultural essence of Bharat.</p> -->
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@ session_start();
                             <h6 class="sec-title__tagline bw-split-in-right">About Ram Ayan Club</h6>
                             <!-- /.sec-title__tagline -->
                             <h3 class="sec-title__title bw-split-in-left">
-                                Your Trusted Partner for Spiritual Journeys
+                                Your Trusted Partner for Cultural Journeys
                             </h3>
                             <!-- /.sec-title__title -->
                         </div>
@@ -240,7 +240,7 @@ session_start();
                             At <strong>Ram Ayan Club</strong>, we specialize in connecting devotees
                             with India’s most sacred destinations like <strong>Ayodhya, Kashi,
                                 Mathura, Chitrakoot, and Prayagraj</strong>. Our mission is to make your
-                            spiritual journey meaningful, comfortable, and deeply fulfilling.
+                            cultural journey meaningful, comfortable, and deeply fulfilling.
                         </p>
                         <!-- /.about-two__top__text -->
 
@@ -279,7 +279,7 @@ session_start();
                                             <h5 class="about-two__feature-title">Mission & Vision</h5>
                                             <!-- /.about-two__feature-title -->
                                             <p class="about-two__feature-text">
-                                                To make holy places accessible while preserving the spiritual
+                                                To make holy places accessible while preserving the cultural
                                                 essence of each journey.
                                             </p>
                                             <!-- /.about-two__feature-text -->
@@ -342,7 +342,7 @@ session_start();
                 </div>
                 <!-- /.sec-title -->
                 <p class="destination-filter__top__text">
-                    Experience the divine aura of sacred temples, historic shrines, and spiritual landmarks.
+                    Experience the divine aura of sacred temples, historic shrines, and cultural landmarks.
                 </p>
                 <!-- /.destination-filter__top__text -->
             </div>
@@ -1337,7 +1337,7 @@ session_start();
                                             <p class="testimonials-two-card__text">
                                                 "Visiting Varanasi with this travel service was a life-changing
                                                 experience.
-                                                Everything was well-organized, and the spiritual vibe was beyond
+                                                Everything was well-organized, and the cultural vibe was beyond
                                                 words."
                                             </p>
                                         </div>
